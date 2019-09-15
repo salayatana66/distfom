@@ -7,7 +7,6 @@ version := "0.1"
 libraryDependencies += "org.apache.spark" %% "spark-core" % "2.3.0"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.3.0"
 libraryDependencies += "org.apache.spark" %% "spark-mllib" % "2.3.0"
-//libraryDependencies += "com.github.fommil.netlib" % "all" % "1.1.2" pomOnly()
 
 libraryDependencies  ++= Seq(
   // Last stable release
@@ -20,13 +19,6 @@ libraryDependencies  ++= Seq(
   "org.scalanlp" %% "breeze-natives" % "0.13.2"
 )
 
-libraryDependencies += "com.storm-enroute" %% "scalameter-core" % "0.10" % Test
-libraryDependencies += "com.storm-enroute" %% "scalameter" % "0.10" % Test
-
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
-
-libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.0" % "test"
 
 libraryDependencies += "org.apache.logging.log4j" % "log4j-api" % "2.11.1"
 libraryDependencies += "org.apache.logging.log4j" % "log4j-core" % "2.11.1"

@@ -17,7 +17,7 @@ can be run in a "suite" without needing an actual
 cluster, and "tests" to run in interactive mode,
 e.g. those concerning scalability / benchmarks.
 
-*`run_sparkshell_example` is an example of cluster setup
+* `run_sparkshell_example` is an example of cluster setup
 to run spark on. `project/log4j2.xml` is an example of
 customizing logging.
 
