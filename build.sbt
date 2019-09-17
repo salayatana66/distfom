@@ -4,9 +4,9 @@ name := "distfom"
 organization := "org.none"
 version := "0.1"
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % "2.3.0"
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.3.0"
-libraryDependencies += "org.apache.spark" %% "spark-mllib" % "2.3.0"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.3"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.3"
+libraryDependencies += "org.apache.spark" %% "spark-mllib" % "2.4.3"
 
 libraryDependencies  ++= Seq(
   // Last stable release
