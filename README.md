@@ -1,6 +1,6 @@
 # Distributed Function Minimization in Apache Spark
 
-GitHub code for the paper: ???
+GitHub code for the paper [http://arxiv.org/abs/1909.07922](http://arxiv.org/abs/1909.07922)
 
 ## Using the Library
 
